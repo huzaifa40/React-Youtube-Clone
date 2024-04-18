@@ -1,0 +1,11 @@
+.container {
+    padding-left: 18%;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.big-container {
+    padding-left: 9%;
+    transition: 0.5s ease;
+}
+

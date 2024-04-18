@@ -1,0 +1,62 @@
+.sidebar {
+    width: 15%;
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    padding: 20px 0px 0px 30px;
+    font-family: sans-serif;
+    box-shadow: 6px 4px 8px -3px rgba(196, 194, 194, 0.79);
+}
+
+.side-links {
+    display: flex;
+    gap: 25px; 
+    align-items: center;
+    cursor: pointer;
+}
+
+.subscribed-links .side-links {
+    margin-bottom: 10px;
+}
+
+.subscribed-links h4 {
+    margin: 10px 0px;
+    text-align: left;
+}
+
+.shortcut-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.shortcut-links hr {
+    width: 50%;
+}
+
+.side-links img {
+    width: 30px;
+    border-radius: 50%;
+} 
+
+.small {
+    width: 6%;
+    transition: width 0.5s ease;
+    box-shadow: 6px 4px 8px -3px rgba(196, 194, 194, 0.79);
+}
+
+.small p {
+    display: none;
+}
+
+.small .subscribed-links {
+    margin-top: 12px;
+}
+
+.small h4 {
+    display: none;    
+}
+
+.small hr {
+    width: 50%;
+}
